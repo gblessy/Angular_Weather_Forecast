@@ -24,6 +24,9 @@ Days: <a href="#/forecast/2" ng-class=" { 'bg-primary': days === '2' }">2</a> | 
                 <div class="panel-body">
                     Pressure: {{ weather.pressure}}
                 </div>
+                <div class="panel-body">
+                    Weather: {{ weather.weather[0].main }}
+                </div>
             </div>
         </div>
     </div>
